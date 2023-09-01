@@ -37,7 +37,7 @@ const Navbar = () => {
               <span className="navbar-toggler-icon"></span>
         </button>
           <NavLink to="/home" className="nav-link">
-            <img src="/assets/img/nav_img.png" alt="logo" height="70" />
+            <img src="https://o.remove.bg/downloads/e5e92b75-ae2e-4a09-88a0-92da25e28171/nav_img-removebg-preview.png" alt="logo" height="70" />
           </NavLink>
           <div className="collapse navbar-collapse flex-grow-0 " id="navbarNavDropdown">
             <ul className="navbar-nav">

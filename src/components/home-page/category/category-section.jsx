@@ -11,9 +11,9 @@ const Category = ({cat}) => {
   return (
     <div className="col">
       <div className="card text-bg-dark">
-        <img src="/assets/img/back-store.jpg" className="card-img" alt="..."/>
+        <img src="https://www.thedelhiwalla.com/wp-content/uploads/2016/03/a3-1.jpg" className="card-img" alt="..."/>
         <div className="card-img-overlay text-center">
-          <p className="card-text">{books.length} {t('home.category.num-text')}</p>
+          <p className="card-text text-light">{books.length} {t('home.category.num-text')}</p>
           <Link to={`/store/${cat._id}`}>
             <button
               type="button"

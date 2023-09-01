@@ -12,14 +12,14 @@
 }
 .card-title{
     width: 100%;
-    background-color: rgba(240, 248, 255, 0.752);
+    background-color: rgba(74, 75, 75, 0.752);
     height: 2em;
-    color: #000 !important; 
+    color: #ffffff !important; 
     margin-bottom: 0 !important;
     font-size: 18px;
 }
 .card-img{
-    filter: blur(1.5px);
+    filter: blur(1.8px);
 }
 .card-img:hover{
     transform: scale(1.5);

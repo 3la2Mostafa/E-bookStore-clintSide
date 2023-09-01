@@ -24,13 +24,13 @@ const About = () => {
         <div className="lightbox"  data-mdb-zoom-level="0.25" data-id="lightbox-ah1mr9bgo">
             <div className="row">
                 <div className="col-lg-4">
-                    <img src="/assets/img/1.jpg" className="w-100 h-auto rounded mb-4" />
+                    <img src="https://static1.s123-cdn-static-a.com/uploads/5171355/400_6251bfe9f04d0.jpg" className="w-100 h-auto rounded mb-4" />
                 </div>
                 <div className="col-lg-4">
-                    <img src="/assets/img/3.jpg" className="w-100 h-auto rounded mb-4" />
+                    <img src="https://static1.s123-cdn-static-a.com/uploads/5171355/400_6251bff09cfe5.jpg" className="w-100 h-auto rounded mb-4" />
                 </div>
                 <div className="col-lg-4">
-                    <img src="/assets/img/2.jpg" className="w-100 h-auto rounded mb-4" />
+                    <img src="https://static1.s123-cdn-static-a.com/uploads/5171355/400_6251bff2bb3a5.jpg" className="w-100 h-auto rounded mb-4" />
                 </div>
             </div>
         </div>

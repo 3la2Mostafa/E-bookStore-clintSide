@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <>
       <div className="p-0 m-0">
-        <div className="text-center p-lg-6" style={{background: "url(/assets/img/main.jpg) center"}}>
+        <div className="text-center p-lg-6" style={{background: "url(https://static1.s123-cdn-static-a.com/uploads/5171355/800_627548307dd06_filter_627548f613ae4.jpg) center/ cover no-repeat"}}>
           <div className="col-xxl">
             <div className="p-0 m-0 text-light" style={{backgroundColor : "rgba(0, 0, 0, 0.542)"}}>
                 <div>
