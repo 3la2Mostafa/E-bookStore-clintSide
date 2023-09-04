@@ -1,5 +1,5 @@
 /*     store    */
-.card-img-overlay{
+/* .card-img-overlay{
     position: relative;
 }
 .card-img-overlay button a{
@@ -9,7 +9,7 @@
 .card-img-overlay button a:hover{
     text-decoration: none;
     color: #000;
-}
+} */
 .card-title{
     width: 100%;
     background-color: rgba(74, 75, 75, 0.752);
@@ -17,15 +17,11 @@
     color: #ffffff !important; 
     margin-bottom: 0 !important;
     font-size: 18px;
+    font-family: cursive;
 }
 .card-img{
     filter: blur(1.1px);
 }
-
-.card-text{
-    color: #000;
-}
 .heading{
-    margin-top: 50px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

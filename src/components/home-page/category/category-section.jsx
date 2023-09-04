@@ -17,7 +17,7 @@ const Category = ({cat}) => {
           <Link to={`/store/${cat._id}`}>
             <button
               type="button"
-              className="btn btn-outline-light position-absolute top-50 start-50 translate-middle">
+              className="btn btn-outline-light position-absolute top-50  translate-middle">
               <a target="_blank">{t('home.category.btn')}</a>
             </button>
           </Link>
