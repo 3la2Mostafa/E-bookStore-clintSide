@@ -28,7 +28,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-light px-4">
+      <nav className="navbar navbar-expand-lg navbar-light px-4 py-1">
         <div className="container-fluid ">
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" 
             data-bs-target="#navbarNavDropdown" 
@@ -37,7 +37,7 @@ const Navbar = () => {
               <span className="navbar-toggler-icon"></span>
         </button>
           <NavLink to="/home" className="nav-link">
-            <img src="https://o.remove.bg/downloads/e5e92b75-ae2e-4a09-88a0-92da25e28171/nav_img-removebg-preview.png" alt="logo" height="70" />
+            <img src="https://www.transparentpng.com/thumb/books/book-paper-free-png--ZsF73n.png" alt="logo" height="70"/>
           </NavLink>
           <div className="collapse navbar-collapse flex-grow-0 " id="navbarNavDropdown">
             <ul className="navbar-nav">

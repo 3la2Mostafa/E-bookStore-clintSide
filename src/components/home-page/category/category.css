@@ -19,11 +19,9 @@
     font-size: 18px;
 }
 .card-img{
-    filter: blur(1.8px);
+    filter: blur(1.1px);
 }
-.card-img:hover{
-    transform: scale(1.5);
-}
+
 .card-text{
     color: #000;
 }
