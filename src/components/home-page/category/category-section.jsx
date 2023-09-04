@@ -22,7 +22,7 @@ const Category = ({cat}) => {
             </button>
           </Link>
           <h5 className="card-title position-absolute bottom-0 start-50 translate-middle-x p-2">{cat.name}</h5>
-          <div className="overlay"></div>
+          {/* <div className="overlay"></div> */}
         </div>
       </div>
     </div>
