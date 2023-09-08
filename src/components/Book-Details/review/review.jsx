@@ -71,7 +71,7 @@ function Review() {
   return (
     <>
       <div className="container">
-        <div className="row" style={{ width: "50%" }}>
+        <div className="row review">
           <div className="heading d-flex flex-column align-items-start">
             <div>
               <h2>{t("review.title")}</h2>

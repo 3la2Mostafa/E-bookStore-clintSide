@@ -145,7 +145,7 @@ const Contact = () => {
                     <input
                       type="submit"
                       value={t("home.contact.btn-submit")}
-                      className="btn btn-primary rounded-1 py-2 px-4"
+                      className="btn btn-primary rounded-1 py-2 px-4 mb-5"
                     />
                     {success ? (
                       <Spinner

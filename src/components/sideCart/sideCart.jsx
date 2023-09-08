@@ -48,7 +48,7 @@ function SideCart({ isCartOpen, handleClose }) {
                       <div className="col-md-8">
                         <div className="card-body">
                           <div className='d-flex justify-content-between'>
-                            <h3 className="card-title">{product.book.bookTitle}</h3>
+                            <h2 className="card-title">{product.book.bookTitle}</h2>
                             <i className="bi bi-trash" onClick={() => {dispatch(removeFromCart(product));  }}></i>
                           </div>
                           <p className="card-text price">{Number(product.book.price) * product.quantity}.00 {t('product-details.p-egp')}</p>
@@ -80,17 +80,17 @@ function SideCart({ isCartOpen, handleClose }) {
                   { 
                     localStorage.getItem('user') ? 
                   <Link to={`/order`}>
-                    <button className="btn btn-custom btn-lg w-100 m-3" id="orderBtn" 
+                    <button className="btn btn-custom btn-lg w-100 mb-3" id="orderBtn" 
                     onClick={() => { handleClose()}}>{t('side-cart.btn-order')}</button>
                   </Link>
                   : 
                   <Link to={`/login`}>
-                  <button className="btn btn-custom btn-lg w-100 m-3" id="orderBtn" 
+                  <button className="btn btn-custom btn-lg w-100 mb-3" id="orderBtn" 
                   onClick={() => { handleClose()}}>{t('side-cart.btn-loginFirst')}</button>
                 </Link>
                     } 
                 </div>
-                <button className="btn btn-custom btn-lg w-100 m-3"id="continueBtn" 
+                <button className="btn btn-custom btn-lg w-100 mb-3"id="continueBtn" 
                 onClick={() => { handleClose()}}>{t('side-cart.btn-continue')}</button>
               </div>
             )}

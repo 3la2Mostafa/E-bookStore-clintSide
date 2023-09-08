@@ -235,8 +235,8 @@ export default function BookDetails() {
             </div>
             <div className="small"></div>
           </div>
-          <div className="container px-4 px-lg-5 mt-5">
-            <div className="row gx-4 gx-lg-5 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 justify-content-center h-100">
+          <div className="container mt-5">
+            <div className="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 h-100">
               <Related relatedBooks ={relatedBooks} catId={bookCategory}/>
             </div>
           </div>

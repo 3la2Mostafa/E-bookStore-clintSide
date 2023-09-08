@@ -19,7 +19,7 @@ function ResponsiveHeader(){
   }, [name, orgName])
 
   return (
-    <h1 style={{fontSize:'70px'}}  className="text-white sm:text-7xl text-5xl md:text-8xl lg:text-9xl font-bold text-center text-shadow-black text-shadow-lg">
+    <h1 style={{fontSize:'7vw'}}  className="text-white sm:text-7xl text-5xl md:text-8xl lg:text-9xl font-bold text-center text-shadow-black text-shadow-lg">
       {name}
     </h1>
   )

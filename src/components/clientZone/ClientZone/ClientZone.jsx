@@ -78,7 +78,7 @@ function ClientZone(e) {
           </Spinner>
         ) : (
           <div className="row mb-5">
-            <div className="col-xs-12 col-sm-12 col-md-4">
+            <div className="col-xs-12 col-sm-12 col-md-4 left-client">
               <div className=" clientZoneProfileImage box-primary box-text-primary text-center">
                 <div
                   className="profile-image "
@@ -114,7 +114,7 @@ function ClientZone(e) {
                       </Spinner>
                     </div>
                   </div>
-                  <form className="client" action="#">
+                  <form className="client opacity-0" action="#">
                     <div className=" ps-5">
                       <input
                         type="file"
@@ -204,7 +204,7 @@ function ClientZone(e) {
                 </div>
               </div>
             </div>
-            <div className="col-xs-12 col-sm-12 col-md-8">
+            <div className="col-xs-12 col-sm-12 col-md-8 right-client">
               {clientActivePage === "profile" && <Profile data={data} />}
               {clientActivePage === "address" && <MyAddress data={data}/>}
               {clientActivePage === "Store" && <MyStore />}

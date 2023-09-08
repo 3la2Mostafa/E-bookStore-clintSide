@@ -9,3 +9,17 @@ body[dir='ltr'] .list li{
     color: #900c3f;
     font-weight: bolder;
 }
+/* responsive reviews */
+.review{
+    width: 50%;
+}
+@media only screen and (max-width: 980px) {
+    .review{
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 770px) {
+    .review{
+        width: 100%;
+    }
+}
