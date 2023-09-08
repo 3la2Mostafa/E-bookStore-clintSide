@@ -38,7 +38,7 @@ const Tranding = () => {
         </div>
       </div> */}
       <div className="container">
-        <div className="row row-cols-1 row-cols-md-3 row-cols-lg-5 my-5">
+        <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 my-5">
           <img src='https://static1.s123-cdn-static-a.com/uploads/5171355/800_63821304a2ddf.jpg' className='pb-4'/>
           <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAsDhRXXprs_HxeSK7nPPgYympYA9qhtoLzPWX4-sr8bcCrh1FOTSO3Q-j63gT2NOusPQ&usqp=CAU' className='pb-4'/>
           <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGqgPrX-OgLtpgscKRYhFXFDNUa_WNDwUW6VLif7erRQkaGWYed5KompKbgo_3naoYWKs&usqp=CAU' className='pb-4'/>

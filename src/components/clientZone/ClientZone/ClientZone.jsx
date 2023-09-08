@@ -54,7 +54,7 @@ function ClientZone(e) {
     updatePage(activePage);
   }
   return (
-    <div className=" container page-header noBackground">
+    <div className=" container-fluid page-header noBackground px-5">
       <div className="container-fluid page-header noBackground mb-5">
         <div className="row">
           <div className="container modulesTitleContainer">
@@ -81,7 +81,7 @@ function ClientZone(e) {
             <div className="col-xs-12 col-sm-12 col-md-4 left-client">
               <div className=" clientZoneProfileImage box-primary box-text-primary text-center">
                 <div
-                  className="profile-image "
+                  className="profile-image text-center"
                   style={{ position: "relative" }}
                 >
                   <img
@@ -127,7 +127,7 @@ function ClientZone(e) {
                 </div>
 
                 <div className="clientemail">
-                  <h4 className="email fw-bold d-block p-3">
+                  <h4 className="email fw-bold d-block p-3" style={{fontSize:"1rem"}}>
                     {data.email}
                   </h4>
                   <i
