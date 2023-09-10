@@ -18,7 +18,7 @@ const Footer = () => {
               </li>
             </ul>
       
-            <div className="col-md-7 text-center p-0">
+            <div className="footer-sec col-md-7 text-center p-0">
             <ul className="navbar-nav footer d-flex justify-content-center flex-row text-center">
               <li className="nav-item">
                 <NavLink to="/home" className="nav-link">{t("footer.home")}</NavLink>

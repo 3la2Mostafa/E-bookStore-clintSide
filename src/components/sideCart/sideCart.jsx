@@ -42,10 +42,10 @@ function SideCart({ isCartOpen, handleClose }) {
                 return (
                   <div className="card mb-3" style={{maxWidth: "480px"}} key={product.book._id}>
                     <div className="row g-0" >
-                      <div className="col-md-4">
+                      <div className="col-sm-4">
                         <img  className="img-fluid " src={product.book.bookImage} alt="cover_image"/>
                       </div>
-                      <div className="col-md-8">
+                      <div className="col-sm-8">
                         <div className="card-body">
                           <div className='d-flex justify-content-between'>
                             <h2 className="card-title">{product.book.bookTitle}</h2>
@@ -76,7 +76,7 @@ function SideCart({ isCartOpen, handleClose }) {
                     }, 0)}.00 {t('product-details.p-egp')}
                   </p>
                 </div>
-                <div>
+                <div className='btn-sidecart'>
                   { 
                     localStorage.getItem('user') ? 
                   <Link to={`/order`}>

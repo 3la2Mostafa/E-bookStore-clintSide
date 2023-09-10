@@ -24,11 +24,6 @@
     width: 70%;
   }
 }
-@media screen and (max-width: 500px) {
-  .side-cart {
-    width: 100%;
-  }
-}
 
 .side-cart.active {
     right: 0;
@@ -120,6 +115,15 @@ header a:hover {
   color: var(--color);
 }
  
+@media screen and (max-width: 500px) {
+  .btn-sidecart button , #continueBtn{
+    font-size: 4vw !important;
+  }
+  .side-cart {
+    width: 100%;
+  }
+}
+
 /* img -> dir */
 body[dir='rtl'] .card-product img{
   border-top-right-radius:8px !important;

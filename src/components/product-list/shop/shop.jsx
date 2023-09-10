@@ -14,7 +14,7 @@ const Shop = () => {
   return (
     <>
       <nav aria-label="breadcrumb" className="container">
-        <ol className="breadcrumb">
+        <ol className="breadcrumb"  id='breadcrumb'>
           <li className="breadcrumb-item">
             <NavLink to="/home" className="nav-link">{t('product-list.shop.home')}</NavLink>
           </li>
@@ -39,7 +39,7 @@ const Shop = () => {
           <div className='col-sm-4 px-3'>
             <Filter />
           </div>
-          <div className="col-sm-8 px-5" style={{ alignContent: 'flex-start' }}>
+          <div className="col-sm-8 px-5 product" style={{ alignContent: 'flex-start' }}>
           <Product />
           </div>
         </div>

@@ -1,6 +1,7 @@
 import React, { useContext, useState, useEffect } from "react";
 import Spinner from "react-bootstrap/Spinner";
 import "../../clientZone/App.css";
+import '../clientzone.css';
 import { ClientActivePageCntxt } from "../../clientZone/CLientZoneRouter";
 import Profile from "./profile/Profile";
 import MyAddress from "./myAddress/MyAddress";
@@ -54,7 +55,7 @@ function ClientZone(e) {
     updatePage(activePage);
   }
   return (
-    <div className=" container-fluid page-header noBackground px-5">
+    <div className="container-fluid page-header noBackground container-width">
       <div className="container-fluid page-header noBackground mb-5">
         <div className="row">
           <div className="container modulesTitleContainer">
@@ -77,7 +78,7 @@ function ClientZone(e) {
             <span className="visually-hidden ">Loading...</span>
           </Spinner>
         ) : (
-          <div className="row mb-5">
+          <div className="row mb-5 ">
             <div className="col-xs-12 col-sm-12 col-md-4 left-client">
               <div className=" clientZoneProfileImage box-primary box-text-primary text-center">
                 <div

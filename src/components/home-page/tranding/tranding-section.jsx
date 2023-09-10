@@ -9,7 +9,7 @@ const Tranding = () => {
   const books = useSelector((state) => state.books)
 
   return (
-    <div id="trending">
+    <div id="trending" className='pt-5'>
       <div className="heading d-flex flex-column align-items-center" id="Trending">
         <div><h1>{t('home.tranding.title')}</h1></div><div className="small"></div>
       </div>

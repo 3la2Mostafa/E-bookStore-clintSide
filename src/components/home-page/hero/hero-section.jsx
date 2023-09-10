@@ -14,7 +14,7 @@ const Hero = () => {
           <div className="col-xxl">
             <div className="p-0 m-0 text-light" style={{backgroundColor : "rgba(0, 0, 0, 0.542)"}}>
                 <div>
-                    <br /><br /><br /><br /><br /><br /><br /><br /><br />
+                    <br /><br /><br /><br /><br /><br /><br />
                     {/* <h1 className="hero-title hero-shadow">{t('home.hero.title')}</h1> */}
                     <h1 className="hero-title hero-shadow">
                       <ResponsiveHeader title={translatedTitle}/>

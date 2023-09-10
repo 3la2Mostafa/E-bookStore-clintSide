@@ -89,7 +89,7 @@ export default function BookDetails() {
     <>
 
       <nav aria-label="breadcrumb" className="container">
-        <ol className="breadcrumb">
+        <ol className="breadcrumb" id='breadcrumb'>
           <li className="breadcrumb-item">
             <NavLink to="/home" className="nav-link">{t('product-details.home')}</NavLink>
           </li>
@@ -121,14 +121,14 @@ export default function BookDetails() {
 
         <section>
           <div className="container  my-5">
-            <div className="row  gx-lg-5 ">
-              <div className="col-md-4">
+            <div className="row">
+              <div className="col-md-4 container-cover">
                 <div className="zoom " onMouseMove={(e) => handleZoom(e)}
                   style={{ borderRadius: '12px', backgroundImage: `url(${book?.bookImage})`}}>
                   <img className="card-img-top mb-md-0" src={book?.bookImage} alt="Book Cover"/>
                 </div>
               </div>
-              <div className="col-md-8"><br /><br/>
+              <div className="col-md-8 details-sec"><br /><br/>
                 <div className="fs-5 d-flex flex-column mb-3">
                   <span className="price fs-2">{book?.price}.00 {t('product-details.p-egp')} </span>
                 </div>
@@ -175,7 +175,7 @@ export default function BookDetails() {
                     <hr />
                   </li>
                 </ul>
-                <div className="d-flex">
+                <div className="d-flex text-center btn-sec">
                   <div className="input-container">
                     <button
                       onClick={() => { setQuantity((quantity) => quantity - 1)}}
@@ -193,7 +193,7 @@ export default function BookDetails() {
                     </button>
                   </div>
                   <button
-                    className="py-0 mx-3 btn btn-outline-danger flex-shrink-0 icon"
+                    className=" mx-2 btn btn-outline-danger flex-shrink-0 icon btn-cart"
                     type="button"
                     onClick={() => {
                       dispatch(addToCart({ book, quantity }));
@@ -217,11 +217,10 @@ export default function BookDetails() {
             <div className="row">
               <div className="col-xs-12">
                 {/* Description tab content */}
-                <div className="container ">
-                  <h4 style={{paddingTop: '10px', borderRadius: '5px',color: 'gray',}}>
+                <div className="container about">
+                  <p style={{paddingTop: '10px', borderRadius: '5px',color: 'gray',}}>
                     <strong>{book?.description}</strong>
-                  </h4>
-
+                  </p>
                 </div>
               </div>
             </div>

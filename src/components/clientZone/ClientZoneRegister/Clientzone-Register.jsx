@@ -46,7 +46,7 @@ export default function ClientzoneRegister() {
   };
   const { t } = useTranslation();
   return (
-    <div className="m-5">
+    <div className="m-3">
       <div className="container-fluid page-header noBackground mb-5">
         <div className="row">
           <div className="container modulesTitleContainer">
@@ -75,8 +75,8 @@ export default function ClientzoneRegister() {
             onSubmit={handleSubmit}
           >
             <Form >
-              <div className="row">
-              <div className="col-sm-6 ">
+              <div className="row mt-4">
+              <div className="col-md-6 input-reg">
               <Field
                 type="file"
                 name="image"
@@ -130,7 +130,7 @@ export default function ClientzoneRegister() {
                 className="text-danger"
               />
               </div>
-              <div className="col-sm-6">
+              <div className="col-md-6 input-reg">
               <Field
                 type="password"
                 name="password"

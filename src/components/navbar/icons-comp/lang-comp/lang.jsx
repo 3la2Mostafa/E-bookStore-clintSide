@@ -31,7 +31,7 @@ function LangSwitch() {
             <button className='close d-flex justify-content-end'>
                 <i className ="bi bi-x-circle p-3" id ="closeBtn" onClick={handelGoBack}></i>
             </button>
-            <div className ='m-5 call text-center'>
+            <div className ='m-5 lang text-center'>
                 <div className="d-flex justify-content-center">
                     <img src='https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/1200px-Flag_of_the_United_States.svg.png' width={'60px'} height={'30px'} className='m-3'/>
                     <h1><a onClick={() => {changeLanguage('en'); handelGoBack();}}>English</a></h1>

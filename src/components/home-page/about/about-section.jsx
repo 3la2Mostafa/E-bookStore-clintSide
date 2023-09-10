@@ -6,7 +6,7 @@ const About = () => {
   const { t } = useTranslation();  
   return (
     <>
-    <div role="main" className="container">
+    <div role="main" className="container about">
         <div id="About">
             <div className="heading d-flex flex-column align-items-center mb-5">
                 <div><h1>{t('home.about.title')}</h1></div><div className="small"></div>

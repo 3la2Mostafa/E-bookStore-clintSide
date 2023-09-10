@@ -79,7 +79,7 @@ function Review() {
             <div className="small"></div>
           </div>
           {user ? (
-            <div>
+            <div className="condition">
               {order.length == 0 ? ( <h4 className="text-center text-color">{t("review.order")}</h4> ) 
               : (
                 <div>
