@@ -216,7 +216,7 @@ return (
             ></i>
           </div>
           <hr />
-          <div className="collapse multi-collapse" id="multiCollapseExample2">
+          <div className="collapse multi-collapse name-auth-sec" id="multiCollapseExample2">
             {uniqueAuthors.map((author) => {
               return (
                 console.log('wwwwwwwwwwwwwww',author.name),

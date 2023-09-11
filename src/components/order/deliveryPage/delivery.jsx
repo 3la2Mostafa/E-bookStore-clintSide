@@ -89,10 +89,10 @@ function DeliveryComponent(props) {
             })}
           </div>
         <div className="row m-5 " id="total">
-          <div className="col-6">
+          <div className="col-sm-6">
             <h5>{t('order.delivery-sec.total')} : </h5>
           </div>
-          <div className="col-6" id="total-price">
+          <div className="col-sm-6" id="total-price">
             <h5 style={{ color: "#900c3f" }}> 
               {cart.reduce((total, product) => {
                 return (

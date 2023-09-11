@@ -24,3 +24,8 @@
     font-size: 4vw;
   }
 }
+@media only screen and (max-width: 400px) {
+  #order-container-delivery .card-body h5 , #order-container-delivery .card-body span , #total h5{
+    font-size: 4vw !important;
+  }
+}

@@ -55,6 +55,17 @@ div .list-group-item{
     .product img {
         height: 65vh;
     }
+    .price-sec label , .name-auth-sec label{
+        font-size: 2vw !important;
+    }
+    .price-sec li , .name-auth-sec li{
+        padding: 8px 8px !important;
+    }
+}
+@media only screen and (max-width: 570px) {
+    .price-sec label , .name-auth-sec label{
+        font-size: 4vw !important;
+    }
 }
 @media only screen and (max-width: 480px) {
     #breadcrumb {

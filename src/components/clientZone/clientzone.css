@@ -35,6 +35,9 @@
     }
 }
 @media only screen and (max-width: 400px) {
+    .social-login-btn button{
+        font-size: 5vw !important;
+    }
     .client-zone-orders-rows .card-body{
         padding: 15px 5px !important;
     }
